@@ -1,8 +1,11 @@
+#----run this line if you haven't installed any of these packages yet
+install.packages(c('sf', 'geosphere', 'osmdata', 'tidyverse', 'cowplot'))
+
+#----load up the necessary packages
 library(sf)
 library(geosphere)
 library(osmdata)
 library(tidyverse)
-library(extrafont)
 library(cowplot)
 
 #----Fill out this section with your info before running the rest of the code----
